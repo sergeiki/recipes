@@ -1,5 +1,12 @@
 <?php
 
+/*
+ * This file is part of https://github.com/sergeiki/recipes
+ *
+ * (c) 2021 Serhii Kirichenko <sergei.ksmith@gmail.com>
+ *
+ */
+
 namespace App\Command;
 
 use sergeiki\trpr\TransportationProblem;
@@ -12,6 +19,9 @@ use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
 
+/**
+ * @author Serhii Kirichenko <sergei.ksmith@gmail.com>
+ */
 
 class TransportationProblemCommand extends Command
 {
